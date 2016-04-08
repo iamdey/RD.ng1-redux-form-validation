@@ -1,0 +1,22 @@
+{
+  "name": "ng1-redux-form-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "build": "babel index.js --out-file public/main.js --source-maps",
+    "dev": "babel index.js --watch --out-file public/main.js --source-maps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-mocks": "^1.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "http-server": "^0.9.0"
+  }
+}
